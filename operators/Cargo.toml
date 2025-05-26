@@ -1,0 +1,13 @@
+[package]
+name = "operators-canvas-rs"
+version = "0.1.0"
+edition = "2024"
+description = "TMF ODA Canvas Rust bindings"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "operators-canvas-rs"
+path = "src/main.rs"
+
+[dependencies]
+tmflib = "0.1.28"
